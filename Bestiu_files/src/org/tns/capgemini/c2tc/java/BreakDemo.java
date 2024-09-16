@@ -1,4 +1,4 @@
-package practice;
+package org.tns.capgemini.c2tc.java;
 
 public class BreakDemo {
 
