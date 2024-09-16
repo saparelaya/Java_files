@@ -1,9 +1,11 @@
 package Sr_Developer;
-
-public class KIA_Internal {
+import Jr_Developer.*;
+public class KIA_Internal extends KIA_AirBags {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		KIA_Internal ob=new KIA_Internal();
+		ob.display_Air();
 
 	}
 
