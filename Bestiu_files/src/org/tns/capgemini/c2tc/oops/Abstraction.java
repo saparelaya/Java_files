@@ -1,20 +1,9 @@
 package org.tns.capgemini.c2tc.oops;
 
-public class Abstraction {
 
-	public static void main(String[] args) {
-		MaheshDemo obj= new SureshDemo();
-		obj.calling();
-		obj.AIIntegration();
-		obj.SatelliteComm();
-		obj.HealthMonitoring();
-
-	}
-
-}
-		abstract class MaheshDemo  
-		{
-			public void calling()
+       abstract class MaheshDemo  
+       {
+	        public void calling()
 			{
 				System.out.println("calling");
 			}
@@ -43,4 +32,16 @@ public class Abstraction {
 		
 
 	}
+	    public class Abstraction {
+
+			public static void main(String[] args) {
+				MaheshDemo obj= new SureshDemo();
+				obj.calling();
+				obj.AIIntegration();
+				obj.SatelliteComm();
+				obj.HealthMonitoring();
+
+			}
+
+		}
 

@@ -1,8 +1,7 @@
 package org.tns.capgemini.c2tc.oops;
 class Animal2{
-	String name="Animal";
 	void eat() {
-		System.out.println(name+ " is eating ");
+		System.out.println("Animal is eating ");
 	}
 }
 class Dog2 extends Animal2{
