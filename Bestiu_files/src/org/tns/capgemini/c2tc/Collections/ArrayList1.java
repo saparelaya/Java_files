@@ -1,6 +1,8 @@
 package org.tns.capgemini.c2tc.Collections;
+
 import java.util.ArrayList;
 import java.util.List;
+
 public class ArrayList1 {
 
 	public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class ArrayList1 {
 		fruits.add("Dragon fruit");
 		
 		
-		System.out.println("First fruit : " +fruits.get(0));
+		System.out.println("First fruit : " +fruits.get(0)); 
 		
 		fruits.set(1, "cherry"); 
 		
@@ -29,7 +31,6 @@ public class ArrayList1 {
 			fruits.clear();
 			System.out.println("list cleared no of fruits " + fruits.size());
 			System.out.println(fruits);
-
 	}
 
 }
